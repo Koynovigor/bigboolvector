@@ -2,12 +2,12 @@
 Библиотека для работы с большими булевыми векторам и несколько тестов, которые проверяют корректность работы всех функций.
 ## Установка
 + Clone with SSH
-    git clone git@github.com:Koynovigor/BigBool.git
+        git clone git@github.com:Koynovigor/BigBool.git
 # Тестирование
 + Чтобы запустить полное тестирование введите:
-    make test
+        make test
 ## Полное тестирование содержит
 + test_unit: проверяет логичность работы кода, получение структуры типа bigbool из числа и строки, сдвиги. Чтобы запустить этот тест введите:
-    make test_unit
+        make test_unit
 + test_de_Morgan: проверяет базовые бинарные операции, конструктор из числа в структуру типа bigbool. Чтобы запустить введите:
-    make test_de_Morgan
+        make test_de_Morgan
